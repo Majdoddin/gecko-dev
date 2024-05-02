@@ -649,7 +649,7 @@ impl CubebServer {
                 let info = RtPriorityThreadInfo::deserialize(thread_info);
                 match promote_thread_to_real_time(info, 0, 48000) {
                     Ok(_) => {
-                        info!("Promotion of content process thread to real-time OK");
+                        info!("Promotion of content process thread to real-time OKK");
                     }
                     Err(_) => {
                         warn!("Promotion of content process thread to real-time error");
